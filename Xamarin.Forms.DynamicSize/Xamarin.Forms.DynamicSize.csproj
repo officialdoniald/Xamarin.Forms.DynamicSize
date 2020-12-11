@@ -2,11 +2,24 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Bence Lenart</Authors>
+    <RepositoryUrl>https://github.com/officialdoniald/Xamarin.Forms.DynamicSize</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageIcon>odicon.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/officialdoniald/Xamarin.Forms.DynamicSize</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.356" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\Programok\odicon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
